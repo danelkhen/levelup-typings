@@ -24,7 +24,7 @@ export interface LevelUp {
     open(): Promise<any>;
     open(options: ld.OpenOptions): Promise<any>;
     close(): Promise<any>;
-    put(key: ld.Bytes, value: ld.Bytes, ): Promise<any>;
+    put(key: ld.Bytes, value: ld.Bytes): Promise<any>;
     put(key: ld.Bytes, value: ld.Bytes, options: ld.WriteOptions): Promise<any>;
     get(key: ld.Bytes): Promise<any>;
     get(key: ld.Bytes, options: ld.BufferReadOptions): Promise<any>;
